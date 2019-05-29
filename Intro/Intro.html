@@ -281,6 +281,56 @@ int main() {
   long double ld = 0.12345678987654321l;
   
   unsigned int u1 = 10u;
+
+  const int ci = 10;
+}
+```
+
+---
+
+### `if` statement
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int money = 0;
+
+  if (money == 0) {
+    cout << "I have no money" << endl;
+  } else {
+    cout << "I have money" << endl;
+  }
+}
+```
+
+--
+
+Or
+
+```C++
+money == 0 ? cout << "I have no money" << endl : cout << "I have money" << endl;
+```
+
+---
+
+### `switch` statement
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main () {
+  int age = 20;
+
+  switch (age) {
+    case 19: cout << "Highschool!" << endl; break;
+    case 20: cout << "Undergraduate!" << endl; break;
+    default: cout << "Too old!" << endl;
+  }
 }
 ```
 
